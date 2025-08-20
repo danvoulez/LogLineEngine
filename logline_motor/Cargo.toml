@@ -1,0 +1,25 @@
+[package]
+name = "logline_motor"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "core",
+    "parser",
+    "execution",
+    "action",
+    "flow",
+    "vault",
+    "provenance",
+    "llm",
+    "simulate",
+    "ui_blocks",
+    "cli",
+    "api",
+    "wasm",
+    "codex",
+]
+
+[dependencies]
+
